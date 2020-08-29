@@ -1,0 +1,77 @@
+<!DOCTYPE html><html>
+<head>
+	<title>Form Elements with Inputs</title>
+<style>
+h1 {
+ text-align: left;
+}
+</style>
+</head>
+<body>
+<form action="/action_page.php" id="form1">
+
+	 <h1>Sign Up</h1>
+	<fieldset>
+	    
+	     <label for="name">Name:</label><br>
+             <input type="text" id="name" name="user_name"><br><br>
+	
+             <label for="email">email:</label><br>
+	     <input type="email" id="mail" name="user_email"><br><br>
+	
+	     <label for="phone">contact:</label><br>
+	     <input type="number" id="phone" name="user_contact"><br><br
+	
+	     <label for="password">Password:</label><br>
+	     <input type="password" id="password" name="user_password"><br>
+	
+	</fieldset>
+	
+	<fieldset>
+	     <label>Description:</label><br>
+	    <textarea id="description" name="user_description"></textarea><br><br>
+	
+	     <label>Age:</label><br>
+	     <input type="radio" id="under_18" value="under_18" name="user-age">
+	     <label for=""under_18" class="light">Under 18</label><br>
+	     <input type="radio" id="over_18" value="over_18" name="user-age">
+	     <label for=""over_18" class="light">18 or older</label><br><br>
+	
+	     <label>Choice of course</label><br>
+	     <input type="radio" id="masters" value="Basters" name="user-choice">
+	     <label for="masters" class="light">Masters</label><br>
+	     <input type="radio" id="bachelors" value="Bachelors" name="user-choice">
+       	     <label for="bachelors" class="light">Bachelors</label><br><br>
+	
+	    <label for="job">Job role:</label><br>
+	    <select id="job" name="user_job">
+	
+	    <optgroup label="Web:">
+	
+	       <option value="front-end developer">Front end Developer</option>
+	       <option value="back-end developer">Back end Developer</option>
+	       <option value="front-end developer">Front end Developer</option>
+           </optgroup>
+         
+	   <optgroup label="Mobile:">
+	      <option value="Android app developer">Android App Developer</option>
+	    <option value="ios developer">IOS Developer</option>
+            </optgroup>
+	  </select><br><br>
+	
+	<label>Subject Interests</label><br>
+	<input type="checkbox" id="development" value="interest_development" name="user_interest">
+	<label class="light" for="development">Development</label><br>
+	<input type="checkbox" id="design" value="interest_design" name="user_interest">
+	<label class="light" for="design">Design</label><br>
+	<input type="checkbox" id="business" value="interest_business" name="user_interest">
+	<label class="light" for="business">Business</label><br><br>
+
+	</fieldset>
+
+	<input type="submit" value="submit">
+	<input type="submit" formaction="/action_page2.php" value="submit as admin">
+      
+</form>
+</body>
+</html>
