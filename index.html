@@ -1,24 +1,26 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>
-			CSS
-		</title>
-		<style>
-			.serif {
-				font-family: "Times New Roman", Times, serif;
-			}
-			p.italic {
-				font-style: italic;
-			}
-			body{
-				color:blue;
-			}
-		</style>
+<head>
+<style>
+a:link {
+  color: blue;
+}
+a:visited {
+  color: green;
+}
+a:hover {
+  color: pink;
+}
+a:active {
+  color: orange;
+}
+</style>
 </head>
-	<body>
-		<h1 class="serif">Hello world!</h1>
-		<p class="italic">India is a big country.</p>
-	</body>
-</html>
+<body>
 
+<p><b><a href="https://www.w3schools.com/css/default.asp" target="_blank">This is a link</a></b></p>
+<p><b>Note:</b> a:hover MUST come after a:link and a:visited in the CSS definition in order to be effective.</p>
+<p><b>Note:</b> a:active MUST come after a:hover in the CSS definition in order to be effective.</p>
+
+</body>
+</html>
