@@ -4,10 +4,12 @@ body {
 h1 {
 	color: blue;
 	text-align:center;
+	border-style: double;
 }
 p{
 	font-family: verdana;
 	font-size:20px;
 	text-align:center;
 	color:green;
+	border-style:dotted dashed solid double;
 }
